@@ -1,0 +1,135 @@
+.recommendationContainer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.recommendationTitle {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #ff3e6c;
+  text-align: center;
+}
+
+.recommendationList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.recommendationItem {
+  position: relative;
+  width: 250px;
+  margin: 10px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  text-align: left;
+}
+
+.recommendationItem:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.itemImage {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top;
+}
+
+.itemDetails {
+  padding: 10px;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.companyName {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #282c3f;
+  margin-bottom: 4px;
+}
+
+.itemName {
+  color: #535766;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+.price {
+  font-size: 14px;
+  line-height: 15px;
+  color: #282c3f;
+  margin-bottom: 10px;
+}
+
+.currentPrice {
+  font-size: 16px;
+  font-weight: 700;
+  color: #282c3f;
+}
+
+.originalPrice {
+  text-decoration: line-through;
+  color: #7e818c;
+  font-weight: 400;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.discount {
+  color: #ff905a;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.rating {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.virtualTryOnButton {
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 0;
+  left: 48.5%;
+  transform: translateX(-50%);
+  width: calc(100% - 10px);
+  margin: 5px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s, bottom 0.3s;
+  z-index: 2;
+  white-space: nowrap;
+  font-size: 1rem;
+}
+
+.recommendationItem:hover .virtualTryOnButton {
+  opacity: 1;
+  visibility: visible;
+  bottom: 10px;
+}

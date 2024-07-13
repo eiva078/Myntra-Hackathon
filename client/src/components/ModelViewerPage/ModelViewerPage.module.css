@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin-top: -60px;
+}
+
+.leftPanel {
+  flex: 1;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.rightPanel {
+  flex: 1;
+  padding: 50px;
+  width: 70%;
+  background-color: #fff;
+  overflow: hidden;
+  height: 100%;
+}

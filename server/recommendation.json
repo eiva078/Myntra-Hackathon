@@ -1,0 +1,72 @@
+[
+  {
+    "id": "004",
+    "image": "/img4.jpg",
+    "company": "DressBerry",
+    "item_name": "Polka Dot Print Dress",
+    "original_price": 1099,
+    "current_price": 274,
+    "discount_percentage": 75,
+    "imgPath": "/avatar4.glb",
+    "rating": {
+      "stars": 4.0,
+      "count": 311
+    }
+  },
+  {
+    "id": "001",
+    "image": "/img1.jpg",
+    "company": "Moshe",
+    "item_name": "Black Front Slit Denim Wrap Midi Skirt",
+    "original_price": 1299,
+    "current_price": 558,
+    "discount_percentage": 57,
+    "imgPath": "/avatar1.glb",
+    "rating": {
+      "stars": 0,
+      "count": 0
+    }
+  },
+  {
+    "id": "002",
+    "image": "/img2.jpg",
+    "company": "SASSAFRAS",
+    "item_name": "Denim Wrap Midi Skirt",
+    "original_price": 1121,
+    "current_price": 2199,
+    "discount_percentage": 49,
+    "imgPath": "/avatar2.glb",
+    "rating": {
+      "stars": 4.5,
+      "count": 712
+    }
+  },
+  {
+    "id": "003",
+    "image": "/img3.jpg",
+    "company": "Mast & Harbour",
+    "item_name": "Acrylic Bodycon Dress",
+    "original_price": 2399,
+    "current_price": 719,
+    "discount_percentage": 70,
+    "imgPath": "/avatar3.glb",
+    "rating": {
+      "stars": 4.2,
+      "count": 14
+    }
+  },
+  {
+    "id": "0011",
+    "image": "/img11.jpg",
+    "company": "Strong And Brave",
+    "item_name": "Premium Spread Collar Party Shirt",
+    "original_price": 3399,
+    "current_price": 2617,
+    "discount_percentage": 23,
+    "imgPath": "/avatar11.glb",
+    "rating": {
+      "stars": 0,
+      "count": 0
+    }
+  }
+]
