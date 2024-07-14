@@ -1,0 +1,407 @@
+.footerContainer {
+  width: 1080px;
+  margin: 40px auto;
+  margin-top: 60px;
+}
+
+.footerImage1,
+.footerImage2,
+.footerImage3,
+.footerImage4 {
+  width: 100%;
+  margin: 0px auto;
+  object-fit: cover;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container1 .item1 {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.container1 .item1 h3 {
+  font-weight: 500;
+  font-size: small;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.container1 .item1 ul li {
+  list-style: none;
+  font-size: small;
+  color: #aaa;
+}
+
+.container1 .item1 ul li a {
+  text-decoration: none;
+}
+
+.container1 .item1 .new {
+  padding: 0px 3.9px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+.container1 .item2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.container1 .item2 h3 {
+  font-weight: 500;
+  font-size: small;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.container1 .item2 ul li {
+  list-style: none;
+  font-size: small;
+  color: #aaa;
+}
+
+.container1 .item2 ul li a {
+  text-decoration: none;
+}
+
+.container1 .item3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.container1 .item3 h3 {
+  font-weight: 500;
+  font-size: small;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.container1 .item3 .footerImage1 img {
+  width: 140px;
+  height: 42px;
+  margin-bottom: 20px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.container1 .item3 .footerIcons img {
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.container1 .item3 .item3Title {
+  margin-bottom: 13px;
+}
+
+.container1 .item4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.container1 .item4 img {
+  width: 48px;
+  height: 40px;
+}
+
+.container1 .item4 .item4Title1 {
+  display: flex;
+  margin-bottom: 24px;
+  max-width: 500px;
+}
+
+.container1 .item4 .item4Title2 {
+  display: flex;
+  max-width: 500px;
+}
+
+.container1 .item4 .item4Title1 h3,
+.container1 .item4 .item4Title2 h3 {
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.container1 .item4 .item4Title1 p,
+.container1 .item4 .item4Title2 p {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.container1 .item4 .item4Title1 .spanTitle {
+  position: relative;
+  top: 20px;
+  right: 170px;
+}
+
+.container1 .item4 .item4Title2 .spanTitle {
+  position: relative;
+  top: 20px;
+  right: 150px;
+}
+
+.container2 .item1 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.container2 .item1 h3 {
+  font-weight: 400;
+  font-size: small;
+  font-weight: bold;
+}
+
+.container2 .item1 .item1Hr {
+  border: 0.5px solid rgba(211, 211, 211, 0.507);
+  background-color: rgba(211, 211, 211, 0.507);
+  border-radius: 2px;
+  width: 85%;
+  position: relative;
+  bottom: 8px;
+  left: 140px;
+}
+
+.container2 .item2 .item2Link {
+  cursor: pointer;
+  font-weight: 200;
+  font-size: small;
+  color: gray;
+  border-right: 1.6px solid rgba(211, 211, 211, 0.719);
+  padding-right: 5px;
+  margin-right: 3px;
+}
+
+.container2 .item3 {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.container2 .item3 .item3Title1 {
+  display: flex;
+}
+
+.container2 .item3 .item3Title1 p {
+  font-weight: 200;
+  font-size: small;
+  color: gray;
+}
+
+.container2 .item3 .item3Title1 .contact {
+  font-weight: 400;
+  font-size: small;
+  color: blue;
+  cursor: pointer;
+  margin-left: 3px;
+}
+
+.container2 .item3 .item3Title2 p {
+  font-weight: 200;
+  font-size: small;
+  color: gray;
+}
+
+.container2 .item4Hr,
+.item4Hr {
+  border: 0.5px solid rgba(211, 211, 211, 0.507);
+  background-color: rgba(211, 211, 211, 0.507);
+  border-radius: 2px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container3 .item1 h3 {
+  font-weight: 400;
+  font-size: small;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.container3 .item1 ul li {
+  list-style: none;
+  font-size: small;
+  color: #aaa;
+}
+
+.container3 .item2 {
+  margin-top: 125px;
+}
+
+.container3 .item2 p {
+  font-size: small;
+  color: #aaa;
+}
+
+.container3 .item2 span {
+  font-size: small;
+  color: #aaa;
+}
+
+.container3 .item2 .contactNo {
+  font-size: small;
+  color: rgba(0, 0, 255, 0.884);
+  cursor: pointer;
+}
+
+.container3 .item3Hr {
+  border: 0.5px solid rgba(211, 211, 211, 0.507);
+  background-color: rgba(211, 211, 211, 0.507);
+  border-radius: 2px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer Ends Here */
+
+#bagCount {
+  position: relative;
+}
+
+#cartCountInfo {
+  position: absolute;
+  top: -8px;
+  right: 18px;
+  background-color: #f16565;
+  color: #fff;
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+#localNew {
+  position: absolute;
+  top: -32px;
+  right: -8px;
+  color: #f16565;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.dropbtn {
+  color: black;
+  background-color: transparent;
+  padding: 0;
+  font-size: 13px !important;
+  outline: none;
+  font-weight: 700;
+  font-family: inherit;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  right: -50px;
+  background-color: #fff;
+  min-width: 240px;
+  min-height: fit-content;
+  box-shadow: 1px 1px 25px -4px rgba(207, 28, 28, 0.54);
+  z-index: 1;
+}
+
+.dropdownContent h3,
+.dropdownContent p,
+.dropdownContent .btnRedirect {
+  padding: 5px 12px 5px 20px;
+  text-align: left;
+}
+
+.dropdownContent h3 {
+  font-size: 16px;
+}
+
+.dropdownContent p {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 12px 10px 20px !important;
+}
+
+.hr1,
+.hr2 {
+  width: 230px;
+  margin: 14px auto 10px auto;
+  border-radius: 2px;
+  background-color: #d3d3d373;
+}
+
+.btnRedirect {
+  position: relative;
+  right: 25px;
+  background-color: transparent;
+  outline: none;
+  border-width: 1px;
+}
+
+.btnRedirect .loginBtn {
+  color: #ff3f6c !important;
+  font-weight: 500 !important;
+}
+
+.btnRedirect:hover {
+  border: 1px solid #ff3f6c;
+}
+
+.btnRedirect .loginBtn:hover {
+  font-weight: 600;
+}
+
+.dropdownContent a {
+  color: gray;
+  padding: 5px 12px 5px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.dropdownContent a:hover {
+  font-weight: 500;
+  color: black;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  padding-bottom: 18px !important;
+}
+
+li a {
+  color: #ababab;
+  font-size: 14px;
+}

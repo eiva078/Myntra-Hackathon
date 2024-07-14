@@ -23,8 +23,8 @@
     "discount_percentage": 57,
     "imgPath": "/avatar1.glb",
     "rating": {
-      "stars": 0,
-      "count": 0
+      "stars": 4.2,
+      "count": 140
     }
   },
   {
@@ -59,14 +59,14 @@
     "id": "0011",
     "image": "/img11.jpg",
     "company": "Strong And Brave",
-    "item_name": "Premium Spread Collar Party Shirt",
+    "item_name": "Premium Spread Collar Shirt",
     "original_price": 3399,
     "current_price": 2617,
     "discount_percentage": 23,
     "imgPath": "/avatar11.glb",
     "rating": {
-      "stars": 0,
-      "count": 0
+      "stars": 4.1,
+      "count": 3
     }
   }
 ]

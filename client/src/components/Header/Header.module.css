@@ -177,6 +177,7 @@ header {
   border: 2px solid rgb(180, 179, 179);
   font-size: 15px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .tryon_p {
