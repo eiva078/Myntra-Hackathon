@@ -30,6 +30,11 @@ const Header = () => {
     setShowProfileHover(false);
   };
 
+  const handleProfileClick = () => {
+    navigate("/login");
+    setShowProfileHover(false);
+  };
+
   const handleExploreClick = () => {
     navigate("/try-on");
     setShowExplore(false);
@@ -96,6 +101,7 @@ const Header = () => {
             className={`action_container ${styles.profilesection} ${styles.bag}`}
             onMouseOver={handleProfileHover}
             onMouseOut={handleProfileMouseOut}
+            onClick={handleProfileClick}
           >
             <IoPersonOutline className={styles.icon} />
             <span className="action_name">Profile</span>

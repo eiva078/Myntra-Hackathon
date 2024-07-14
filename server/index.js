@@ -7,6 +7,7 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import items from './routes/items.js';
 import avatarRoutes from './routes/avatars.js';
+import userRoute from './routes/user.js'
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -18,13 +19,15 @@ const port = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(bodyParser.json());
+app.use(express.json());
 
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
 app.use('/api/items', items);
 app.use('/api/avatars', avatarRoutes); 
+app.use('/api/users', userRoute);
 
-const mongoURI = 'mongodb://localhost:27017/clothitem';
+const mongoURI = process.env.MONGO_URI;
 mongoose.connect(mongoURI, {
   serverSelectionTimeoutMS: 5000,
   socketTimeoutMS: 45000,

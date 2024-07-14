@@ -1,5 +1,5 @@
 import homeImg from "../../assets/homeImg.png";
-import HomeItem from "../../components/HomeItem/HomeItem";
+import HomeItem from "../HomeItem/HomeItem";
 
 const Home = () => {
   return (
