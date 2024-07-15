@@ -9,7 +9,7 @@ Welcome to the Myntra 3D Fashion Try-On Demo! This repository showcases our inno
 
 
 ## Introduction
-Our solution aims to cater to the fashion needs of Gen Z by providing a realistic try-before-you-buy experience. By harnessing AI-driven trend analysis, AR technology, and collaborative supply chains, we offer tailored recommendations and an interactive platform that enhances customer engagement and reduces fit issues.
+Our solution aims to cater to the fashion needs of Gen Z by providing a realistic try-before-you-buy experience. By harnessing AR technology and collaborative supply chains, we offer tailored recommendations and an interactive platform that enhances customer engagement and reduces fit issues.
 
 ## Features
 - **3D Avatar Try-On:** Experience a realistic try-before-you-buy feature with a 3D avatar linked to the Myntra app.
