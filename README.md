@@ -22,5 +22,3 @@ Our solution aims to cater to the fashion needs of Gen Z by providing a realisti
 - [Surbhi Goyal](https://github.com/surbhigoyal2002)
 - [Eiva Prabhakar Yadav](https://github.com/eiva078)
 - [Prerna Madhyan](https://github.com/prernamadhyan16)
-
-](https://docs.google.com/document/d/1NMIEE3vQUyTtX7RJgHdqGxwufPq3fd_ZbIXrJnGuY9o/edit)
