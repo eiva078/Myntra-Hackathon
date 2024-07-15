@@ -4,7 +4,6 @@
 
 [Round 1](https://drive.google.com/file/d/1rIqKfsUj6rT75ZFtIAn_RHoFFfkvcHMR/view?usp=sharing)
 
-# Myntra 3D Fashion Try-On Demo
 Welcome to the Myntra 3D Fashion Try-On Demo! This repository showcases our innovative solution to revolutionize the fashion retail experience for trend-conscious individuals. Our approach leverages AR technology and personalized recommendations to create a unique and engaging shopping experience.
 
 
@@ -15,8 +14,8 @@ Our solution aims to cater to the fashion needs of Gen Z by providing a realisti
 - **3D Avatar Try-On:** Experience a realistic try-before-you-buy feature with a 3D avatar linked to the Myntra app.
 - **Personalized Recommendations:** Get tailored recommendations based on user-uploaded images, gender, body type, skin tone, and occasion preferences.
 - **Trend-Centric Insights:** Stay updated with the latest fashion trends through AI-driven trend analysis.
-- **Enhanced Engagement:** Increase user engagement with trend-centric recommendations and a comprehensive view of how outfits look on a user's 3D model.
-- **Reduced Fit Issues:** Precise avatar measurements minimize fit issues and reduce returns.
+- **Enhanced Customer Engagement:** The personalized and interactive nature of our platform increases user engagement, making the shopping experience more enjoyable and tailored to individual preferences.
+- **Increased Conversion Rates:** The AR 3D virtual try-on feature reduces uncertainty and increases the likelihood of purchase, leading to higher sales.
 
 ## Team members
 
@@ -24,3 +23,4 @@ Our solution aims to cater to the fashion needs of Gen Z by providing a realisti
 - [Eiva Prabhakar Yadav](https://github.com/eiva078)
 - [Prerna Madhyan](https://github.com/prernamadhyan16)
 
+](https://docs.google.com/document/d/1NMIEE3vQUyTtX7RJgHdqGxwufPq3fd_ZbIXrJnGuY9o/edit)
