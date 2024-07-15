@@ -2,8 +2,8 @@
 
 ## Ideation
 
-[Round 1](https://drive.google.com/file/d/1rIqKfsUj6rT75ZFtIAn_RHoFFfkvcHMR/view?usp=sharing)
-[Round 2](https://drive.google.com/drive/u/0/folders/1bZRaiaV8xMBme_FYEOUTgUfj7zmV3x3I)
+- [Round 1](https://drive.google.com/file/d/1rIqKfsUj6rT75ZFtIAn_RHoFFfkvcHMR/view?usp=sharing)
+- [Round 2](https://drive.google.com/drive/u/0/folders/1bZRaiaV8xMBme_FYEOUTgUfj7zmV3x3I)
 
 Welcome to the Myntra 3D Fashion Try-On Demo! This repository showcases our innovative solution to revolutionize the fashion retail experience for trend-conscious individuals. Our approach leverages AR technology and personalized recommendations to create a unique and engaging shopping experience.
 
